@@ -112,7 +112,7 @@ public class IceRainDB {
 	/**
 	 * 将County实例存储到数据库
 	 */
-	public void saveConty(County county) {
+	public void saveCounty(County county) {
 		if (county != null) {
 			ContentValues values = new ContentValues();
 			values.put("county_name", county.getCountyName());
